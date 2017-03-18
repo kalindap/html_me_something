@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.15em;
+    color: #4d4f51;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+header p {
+    margin-top: 1px;
+}
+
+a:link {
+    color: #593984;
+}
+
+a:visited {
+    color: #78747f;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+section {
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow: auto;
+    border-style: solid;
+    border-color: #e1e0e2;
+    border-width: 2px 2px 0px 0px;
+}
+
+section:nth-child(2) {
+    border-width: 2px 0px 0px 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    float: right;
+    margin: 0 10px 0 10px;
+}
+
+.image-left {
+    float: left;
+}
+
+#cookbook-border {
+    border-style: solid;
+    border-color: #e1e0e2;
+    border-width: 5px;
+}
